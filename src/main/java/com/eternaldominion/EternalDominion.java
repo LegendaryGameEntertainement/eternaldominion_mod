@@ -1,5 +1,6 @@
 package com.eternaldominion;
 
+import com.eternaldominion.block.ModBlocks;
 import com.eternaldominion.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTab;
@@ -38,6 +39,7 @@ public class EternalDominion {
 
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         // Register the item to a creative tab
@@ -57,6 +59,10 @@ public class EternalDominion {
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ITEMPLACEHOLDER);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.PURIFIED_GOLD_ORE);
         }
     }
 
