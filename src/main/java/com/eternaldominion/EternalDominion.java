@@ -63,6 +63,7 @@ public class EternalDominion {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.PURIFIED_GOLD_ORE);
+            event.accept(ModBlocks.PURIFIED_IRON_ORE);
         }
     }
 
