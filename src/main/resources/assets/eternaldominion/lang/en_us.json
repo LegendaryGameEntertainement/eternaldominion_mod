@@ -2,5 +2,8 @@
   "item.eternaldominion.itemplaceholder": "Item Place Holder",
 
   "block.eternaldominion.purified_gold_ore": "Purified Gold Ore",
-  "block.eternaldominion.purified_iron_ore": "Purified Iron Ore"
+  "block.eternaldominion.purified_iron_ore": "Purified Iron Ore",
+
+  "creativetab.eternaldominion.overwold_faction_blocks": "Overwold Faction Blocks",
+  "creativetab.eternaldominion.nether_faction_blocks": "Nether Faction Blocks"
 }

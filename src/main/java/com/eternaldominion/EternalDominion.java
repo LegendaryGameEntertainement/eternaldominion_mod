@@ -1,6 +1,7 @@
 package com.eternaldominion;
 
 import com.eternaldominion.block.ModBlocks;
+import com.eternaldominion.item.ModCreativeModeTabs;
 import com.eternaldominion.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTab;
@@ -36,6 +37,8 @@ public class EternalDominion {
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
 
         ModItems.register(modEventBus);
