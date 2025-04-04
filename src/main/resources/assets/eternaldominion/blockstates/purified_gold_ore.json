@@ -1,7 +1,7 @@
 {
   "variants" : {
     "": {
-      "model": "etenaldominion:block/purified_gold_ore"
+      "model": "eternaldominion:block/purified_gold_ore"
     }
   }
 }
