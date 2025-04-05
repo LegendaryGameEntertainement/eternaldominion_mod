@@ -25,6 +25,9 @@ public class ModBlocks {
     public static final  RegistryObject<Block> PURIFIED_IRON_ORE = registerBlock("purified_iron_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHER_GOLD_ORE)));
+    public static final  RegistryObject<Block> END_GRASS = registerBlock("end_grass",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
