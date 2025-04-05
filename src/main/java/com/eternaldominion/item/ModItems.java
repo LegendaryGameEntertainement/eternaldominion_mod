@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> ITEMPLACEHOLDER = ITEMS.register("itemplaceholder",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERWART_STEW = ITEMS.register("netherwart_stew",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

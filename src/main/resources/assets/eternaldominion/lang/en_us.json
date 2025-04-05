@@ -1,11 +1,12 @@
 {
   "item.eternaldominion.itemplaceholder": "Item Place Holder",
+  "item.eternaldominion.netherwart_stew": "NetherWart Stew",
 
   "block.eternaldominion.purified_gold_ore": "Purified Gold Ore",
   "block.eternaldominion.purified_iron_ore": "Purified Iron Ore",
   "block.eternaldominion.end_grass": "EndGrass",
 
-  "creativetab.eternaldominion.overwold_faction_blocks": "Overwold Faction Blocks",
-  "creativetab.eternaldominion.nether_faction_blocks": "Nether Faction Blocks",
-  "creativetab.eternaldominion.ender_faction_blocks": "Ender Faction Blocks"
+  "creativetab.eternaldominion.overwold_faction": "Overwold Faction",
+  "creativetab.eternaldominion.nether_faction": "Nether Faction",
+  "creativetab.eternaldominion.ender_faction": "Ender Faction"
 }
