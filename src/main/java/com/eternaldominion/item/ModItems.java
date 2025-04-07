@@ -19,6 +19,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CRIMSON_FUNGUS_STEW = ITEMS.register("crimson_fungus_stew",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CHORUS_STEW = ITEMS.register("chorus_stew",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

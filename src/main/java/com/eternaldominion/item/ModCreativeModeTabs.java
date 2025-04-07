@@ -42,6 +42,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.eternaldominion.ender_faction"))
                     .displayItems((itemDisplayParameters, output)-> {
                         output.accept(ModBlocks.END_GRASS.get());
+                        output.accept(ModItems.CHORUS_STEW.get());
                     })
                     .build());
 
