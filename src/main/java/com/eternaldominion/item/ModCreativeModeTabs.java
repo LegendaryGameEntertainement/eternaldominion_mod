@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output)-> {
                         output.accept(ModBlocks.PURIFIED_IRON_ORE.get());
                         output.accept(ModBlocks.PURIFIED_GOLD_ORE.get());
+                        output.accept(ModItems.ITEMPLACEHOLDER.get());
                     })
                     .build());
 
@@ -29,7 +30,7 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(OVERWOLD_FACTION.getId())
                     .title(Component.translatable("creativetab.eternaldominion.nether_faction"))
                     .displayItems((itemDisplayParameters, output)-> {
-                        output.accept(ModItems.ITEMPLACEHOLDER.get());
+                        output.accept(ModItems.NETHER_IRON_INGOT.get());
                         output.accept(ModItems.NETHERWART_STEW.get());
                         output.accept(ModItems.WARPED_FUNGUS_STEW.get());
                         output.accept(ModItems.CRIMSON_FUNGUS_STEW.get());

@@ -21,6 +21,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CHORUS_STEW = ITEMS.register("chorus_stew",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_IRON_INGOT = ITEMS.register("nether_iron_ingot",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
