@@ -31,6 +31,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output)-> {
                         output.accept(ModItems.ITEMPLACEHOLDER.get());
                         output.accept(ModItems.NETHERWART_STEW.get());
+                        output.accept(ModItems.WARPED_FUNGUS_STEW.get());
+                        output.accept(ModItems.CRIMSON_FUNGUS_STEW.get());
                     })
                     .build());
 
