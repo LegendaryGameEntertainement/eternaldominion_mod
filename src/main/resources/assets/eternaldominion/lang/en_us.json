@@ -1,10 +1,12 @@
 {
   "item.eternaldominion.itemplaceholder": "Item Place Holder",
   "item.eternaldominion.nether_iron_ingot": "Nether Iron Ingot",
+  "item.eternaldominion.raw_nether_iron": "Raw Nether Iron",
   "item.eternaldominion.netherwart_stew": "NetherWart Stew",
   "item.eternaldominion.warped_fungus_stew": "Warped Fungus Stew",
   "item.eternaldominion.crimson_fungus_stew": "Crimson Fungus Stew",
   "item.eternaldominion.chorus_stew": "Chorus Stew",
+  "item.eternaldominion.emberite_ingot": "Emberite Ingot",
 
   "block.eternaldominion.purified_gold_ore": "Purified Gold Ore",
   "block.eternaldominion.purified_iron_ore": "Purified Iron Ore",

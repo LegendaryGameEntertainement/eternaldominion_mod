@@ -23,6 +23,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NETHER_IRON_INGOT = ITEMS.register("nether_iron_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_NETHER_IRON = ITEMS.register("raw_nether_iron",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EMBERITE_INGOT = ITEMS.register("emberite_ingot",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

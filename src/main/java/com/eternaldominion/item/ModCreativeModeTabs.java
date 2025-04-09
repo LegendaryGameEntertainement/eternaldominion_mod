@@ -35,6 +35,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WARPED_FUNGUS_STEW.get());
                         output.accept(ModItems.CRIMSON_FUNGUS_STEW.get());
                         output.accept(ModBlocks.NETHER_IRON_BLOCK.get());
+                        output.accept(ModItems.RAW_NETHER_IRON.get());
+                        output.accept(ModItems.EMBERITE_INGOT.get());
                     })
                     .build());
 
