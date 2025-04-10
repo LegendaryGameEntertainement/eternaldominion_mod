@@ -27,7 +27,7 @@ public class ModBlocks {
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHER_GOLD_ORE)));
     public static final  RegistryObject<Block> END_GRASS = registerBlock("end_grass",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops()));
+                    .strength(5f).requiresCorrectToolForDrops()));
     public static final  RegistryObject<Block> NETHER_IRON_BLOCK = registerBlock("nether_iron_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops()));

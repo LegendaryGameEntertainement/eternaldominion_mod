@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "eternaldominion:purified_gold_ore",
+    "eternaldominion:purified_iron_ore",
+    "eternaldominion:nether_iron_block"
+  ]
+}
