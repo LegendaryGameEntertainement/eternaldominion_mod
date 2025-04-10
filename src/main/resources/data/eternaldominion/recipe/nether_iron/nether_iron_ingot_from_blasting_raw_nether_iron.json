@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "nether_iron",
+  "ingredient": {
+    "item": "eternaldominion:raw_nether_iron"
+  },
+  "result": {
+    "id": "eternaldominion:nether_iron_ingot"
+  }
+}
