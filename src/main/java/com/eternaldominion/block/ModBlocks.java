@@ -31,6 +31,9 @@ public class ModBlocks {
     public static final  RegistryObject<Block> NETHER_IRON_BLOCK = registerBlock("nether_iron_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops()));
+    public static final  RegistryObject<Block> NETHER_IRON_ORE = registerBlock("nether_iron_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHER_GOLD_ORE)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
