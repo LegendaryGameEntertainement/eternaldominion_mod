@@ -1,0 +1,20 @@
+{
+  "item.eternaldominion.itemplaceholder": "Item Place Holder",
+  "item.eternaldominion.nether_iron_ingot": "L'Ingot de Fer du Nether",
+  "item.eternaldominion.raw_nether_iron": "Fer du Nether Brut",
+  "item.eternaldominion.nether_iron_ore": "Minerai de Fer du Nether",
+  "item.eternaldominion.netherwart_stew": "Soupe de Verrue du Nether",
+  "item.eternaldominion.warped_fungus_stew": "Ragoût de champignons déformés",
+  "item.eternaldominion.crimson_fungus_stew": "Ragoût de champignons rouges",
+  "item.eternaldominion.chorus_stew": "Soupe de Chorus",
+  "item.eternaldominion.emberite_ingot": "L'Ingot d'Emberite ",
+
+  "block.eternaldominion.purified_gold_ore": "Minerai d'Or Pure",
+  "block.eternaldominion.purified_iron_ore": "Minerai de Fer Pure",
+  "block.eternaldominion.end_grass": "Herbe de l'End",
+  "block.eternaldominion.nether_iron_block": "Block de Fer du Nether",
+
+  "creativetab.eternaldominion.overwold_faction": "Overwold Faction",
+  "creativetab.eternaldominion.nether_faction": "Nether Faction",
+  "creativetab.eternaldominion.ender_faction": "Ender Faction"
+}
