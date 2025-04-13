@@ -37,6 +37,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.NETHER_IRON_BLOCK.get());
                         output.accept(ModItems.RAW_NETHER_IRON.get());
                         output.accept(ModItems.EMBERITE_INGOT.get());
+                        output.accept(ModBlocks.NETHER_IRON_ORE.get());
                     })
                     .build());
 

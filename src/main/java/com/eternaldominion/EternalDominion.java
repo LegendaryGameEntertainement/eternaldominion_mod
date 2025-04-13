@@ -1,8 +1,6 @@
 package com.eternaldominion;
 
 import com.eternaldominion.block.ModBlocks;
-import com.eternaldominion.commands.CommandInfo;
-import com.eternaldominion.commands.CommandJoinKingdom;
 import com.eternaldominion.item.ModCreativeModeTabs;
 import com.eternaldominion.item.ModItems;
 import com.mojang.logging.LogUtils;
